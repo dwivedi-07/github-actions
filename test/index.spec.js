@@ -2,7 +2,7 @@ import { expect } from "chai"
 import Pencil from "../src/";
 
 describe("Pencil Durability Kata Tests", () => {
-  describe("Writing from pencil", () => {
+  describe("Writing", () => {
     it("Writes Hello World! on a blank piece of paper", () => {
       const pencil = new Pencil();
       const result = pencil.writeOnPaper("", "Hello World!");
